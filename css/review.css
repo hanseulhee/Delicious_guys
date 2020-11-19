@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    width : 100%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    top: 0px;
+    position: sticky;
+}
+
+
+.logo {
+
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.logo > img {
+    all: unset;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin-top: 5px;
+    vertical-align: center;
+}
+
+.logo > h3 {
+    all: unset;
+    font-size: 18px;
+    
+    display: inline-block;
+    margin-left: 10px;
+
+    top: 50%;
+    vertical-align: center;
+    transform: translateY(-50%);
+}
+
+.container {
+    margin-top: 4%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.place {
+    grid-column: 2 / 4;
+}
+
+.name { 
+    font-size: 25px;
+}
+
+.nickname { 
+    font-size: 20px;
+}
+
+.explain {
+    font-size: 15px;
+}
+
+
+.reviewcount {
+    font-size: 14px;
+
+}
+
+.two{
+    border-top: 5px;
+    width: 60vw;
+}
+
+.one {
+    position: relative;
+    width: 60vw;
+}
+
+
+
+.reviewimg > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    margin-top: 3%;
+
+}

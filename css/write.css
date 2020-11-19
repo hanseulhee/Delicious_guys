@@ -1,0 +1,261 @@
+
+
+body {
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    width : 100%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    top: 0px;
+    position: sticky;
+
+    z-index: 2;
+}
+
+
+.logo {
+    /* background-color: blue;
+    width: 30px;
+    height: 30px; */
+
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.logo > img {
+    all: unset;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin-top: 5px;
+    vertical-align: center;
+}
+
+.logo > h3 {
+    all: unset;
+    font-size: 18px;
+    
+    display: inline-block;
+    margin-left: 10px;
+
+    top: 50%;
+    vertical-align: center;
+    transform: translateY(-50%);
+}
+
+.write{
+    display: grid;
+    grid-template: 
+            "b b a" 280px
+            "b b a" 30px
+            "b b c" auto/ auto;
+
+}
+
+
+.reviewinput{
+    grid-area: b;
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 40px;
+    
+}
+
+.write > img{
+    grid-area: a;
+    display: inline-block;
+    width: 530px;
+    height: 280px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.placelist{
+    grid-area: c;
+    width: 200px;
+    height: 200px;
+}
+
+.menu{
+
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+
+.my-box { 
+    border: 1px solid rgba(44, 44, 44, 0.2);
+    border-radius: 7px;
+    padding:10px;
+    width: 530px; 
+}
+
+.one{
+    border-top: 5px;
+}
+
+.place{
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.content{ 
+    font-size: 18px;
+}
+
+#input {
+    all: unset;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 6px;
+    border-radius: 7px;
+    border: 1px solid rgba(230, 230, 230, 0.7);
+    box-shadow: 0px 0px 6px rgba(44, 44, 44, 0.04);
+    
+
+}
+
+#input:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#input:focus{
+    background-color: #FFF;
+    border: 2px solid rgba(30, 85, 250, 0.47)
+}
+
+
+#input2{
+    all: unset;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 6px;
+    border-radius: 7px;
+    width: 220px;
+    border: 1px solid rgba(230, 230, 230, 0.7);
+    box-shadow: 0px 0px 6px rgba(44, 44, 44, 0.04);
+    
+}
+
+#input2:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#input2:focus{
+    background-color: #FFF;
+    border: 2px solid rgba(30, 85, 250, 0.47)
+}
+
+#input3{
+    all: unset;
+    width: 500px;
+    height: 330px;
+    background-color: rgba(230, 230, 230, 0.6);
+    border-radius: 7px;
+    border: 1px solid rgba(230, 230, 230, 0.7);
+    box-shadow: 0px 0px 6px rgba(44, 44, 44, 0.04);
+}
+#input3:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#input3:focus{
+    background-color: #FFF;
+    border: 2px solid rgba(30, 85, 250, 0.47)
+}
+
+
+
+
+.button_base {
+    margin: 0;
+    border: 0;
+    font-size: 14px;
+    position: relative;
+    top: 50%;
+    left: 125%;
+    margin-top: -18px;
+    border-radius: 2px;
+    margin-left: -80px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.button_base:hover {
+    cursor: pointer;
+}
+
+
+.b01_simple_rollover {
+    color: #000000;
+    border:#FCF1EA;
+    padding: 10px;
+    background-color: #FCF1EA;
+}
+
+.b01_simple_rollover:hover {
+    color: #000000;
+    background-color: #ffc5a1c7;
+}
+
+
+
+/*All the button styles*/
+
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    }
+a{ 
+    text-decoration:none;
+    
+    }
+
+
+.btn {
+    font-size: 20px; 
+    white-space:nowrap; 
+    width: 80%; 
+    padding:.8em 1.5em; 
+    line-height:18px; 
+    display: inline-block;
+    zoom: 1; 
+    color: rgb(112, 112, 112);
+    text-align: center; 
+    position:relative; 
+    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear; 
+    transition: border .25s linear, color .25s linear, background-color .3s linear;
+  
+    }
+
+
+
+.btn.btn-sunflower{
+    background-color: #FCF1EA;
+    border-color: #FCF1EA; 
+    -webkit-box-shadow: 0 3px 0 #FCF1EA;
+    box-shadow: 0 3px 0 #FCF1EA;
+    }
+
+.btn.btn-sunflower:hover{
+    background-color: #ffc5a1c7;
+    }
+
+.btn.btn-sunflower:active{
+    top: 3px; 
+    outline: none; 
+    -webkit-box-shadow: none; 
+    box-shadow: none;
+    }
