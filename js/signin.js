@@ -11,7 +11,7 @@ function handleSubmit(event){
         
         window.alert("빈 칸을 모두 작성해 주세요");
     } else {
-        window.location.assign("/index.html");
+        window.location.assign("index.html");
     }
 }
 
