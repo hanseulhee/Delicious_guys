@@ -33,4 +33,4 @@ function init() {
     slide.addEventListener("click", handleSlideClick);
 }
 
-init()
+init();
