@@ -18,27 +18,29 @@
 ![ezgif com-gif-maker (8)](https://user-images.githubusercontent.com/63100352/109523248-7d6e7f80-7af2-11eb-976c-bb0fdff38fb0.gif)
 
 
-#### review page
+### review page
 
 <img src="https://user-images.githubusercontent.com/63100352/109517607-cc191b00-7aec-11eb-974a-dab94cbce658.PNG" width="650px">
 
-#### signin page
-##### alret 경고창
+### signin page
+#### alret 경고창
 
 ![ezgif com-gif-maker (9)](https://user-images.githubusercontent.com/63100352/109524740-31bcd580-7af4-11eb-921d-aa4d6c6e704c.gif)
 
-#### signup page
+### signup page
 
 <img src="https://user-images.githubusercontent.com/63100352/109517614-cd4a4800-7aec-11eb-8aa9-8c4146c7d8c7.PNG" width="650px">
 
-#### write page
+### write page
 
 ![ezgif com-gif-maker (10)](https://user-images.githubusercontent.com/63100352/109525095-86f8e700-7af4-11eb-8a42-6fba9cb9981e.gif)
 
 
-#### 배포
+### 배포
 
-Link: [맛있는 녀석들](https://hanseulhee.github.io/Delicious_guys/)
+Link : [맛있는 녀석들](https://hanseulhee.github.io/Delicious_guys/)
+
+---
 
 ### 개발 사항
 
